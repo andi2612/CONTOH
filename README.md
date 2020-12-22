@@ -1,4 +1,4 @@
-# bot-wa by Ahmad
+# bot-wa by Andi
 
 # Cara install bot:
 #
@@ -6,9 +6,9 @@
 
 #>pkg install git
 
-#>git clone https://github.com/Ahmad-script/bot-wa
+#>git clone https://github.com/andi2612/CONTOH
 
-#>cd bot-wa
+#>cd CONTOH
 
 #>pkg install wget
 

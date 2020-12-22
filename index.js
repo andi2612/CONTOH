@@ -12,9 +12,9 @@ const menu = require("./lib/menu.js");
 const donate = require("./lib/donate.js");
 const info = require("./lib/info.js");
 //
-const BotName = 'BOT Ahmad'; // Nama Bot Whatsapp
-const instagramlu = 'ahmadwoi_x'; // Nama Instagramlu cok
-const whatsapplu = '083865614902'; // Nomor whatsapplu cok
+const BotName = 'NDIBOT'; // Nama Bot Whatsapp
+const instagramlu = '_nnndiiii'; // Nama Instagramlu cok
+const whatsapplu = '081615019293'; // Nomor whatsapplu cok
 const kapanbotaktif = 'gtw'; // Kapan bot lu aktif
 const grupch1 = 'gk ada'; // OFFICIAL GRUP LU 1
 const grupch2 = 'gk ada'; // OFFICIAL GRUP LU 2
@@ -62,11 +62,11 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @Ahmad`))
+conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @Andi`))
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @Ahmad`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @Andi`)
 })
 
 conn.on('message-new', async(m) =>
